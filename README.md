@@ -1,6 +1,6 @@
 # MSME Scheme Assistant
 
-A full-stack web portal that helps Indian MSMEs discover government schemes (Central and Tamil Nadu), check eligibility, apply, and track applications.
+A full-stack web portal that helps Indian MSMEs discover government schemes (Central and Tamil Nadu), check eligibility, apply, and track applications
 
 - **Frontend:** Angular 21 (SSR-ready) — [`frontend/`](frontend)
 - **Backend:** Node.js, Express, MongoDB (Mongoose), JWT auth — [`backend/`](backend)
