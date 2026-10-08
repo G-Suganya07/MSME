@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+out-tsc/
+tmp/
+coverage/
+
+# Angular cache
+.angular/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Editors / OS
+.idea/
+.DS_Store
+Thumbs.db

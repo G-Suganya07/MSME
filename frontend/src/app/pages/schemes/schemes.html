@@ -1,0 +1,15 @@
+<div class="browse-layout">
+  <aside class="filter-sidebar">
+    <app-filter-panel (filtersChanged)="onFiltersChanged($event)"></app-filter-panel>
+  </aside>
+
+  <main class="results-area">
+    <div class="results-header">
+      <span>{{ filtered.length }} schemes found</span>
+    </div>
+    <div class="results-grid">
+      <app-scheme-card *ngFor="let scheme of filtered" [scheme]="scheme"></app-scheme-card>
+    </div>
+    <p *ngIf="filtered.length === 0" class="empty-note">No schemes match your filters.</p>
+  </main>
+</div>
